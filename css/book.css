@@ -65,3 +65,11 @@ section .book{
 .book:active{
     transform: rotateY(180deg);
 }
+@media(max-width: 768px){
+    section.books{
+        flex-direction: column;
+    }
+    section .book{
+        width: 350px;
+    }
+}
